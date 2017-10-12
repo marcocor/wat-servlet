@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<!-- By default, WAT will run with one annotation thread. To use more cores, 
+		you can increase this value by overriding this parameter. In Tomcat, this 
+		would be done in $CATALINA_BASE/conf/context.xml -->
+	<Parameter name="it.unipi.di.acube.wat.servlet.num_threads" value="1"/>
+
+	<!-- This parameter must be overridden to specify WAT configuration file path. -->
+	<Parameter name="it.unipi.di.acube.wat.servlet.config_file" value=""/>
+
+</Context>
